@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
-  </head>
-  <body>
-   <h1>My Embedded Tweets</h1>
- <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Learning HTML is fun! #coding <a href="https://twitter.com/username/status/1234567890?ref_src=twsrc%5Etfw">March 14, 2023</a></p>&mdash; Your Twitter Username (@username) <a href="https://twitter.com/username/status/1234567890?ref_src=twsrc%5Etfw">March 14, 2023</a>
-    </blockquote>  </body>
+    <title>Tweets Page</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
+    <main>
+        <article>
+            <h1>My Embedded Tweets</h1>
+            
+            <!-- Embed a tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Learning HTML is fun! #coding <a href="https://twitter.com/username/status/1234567890?ref_src=twsrc%5Etfw">March 14, 2023</a></p>&mdash; Your Twitter Username (@username) <a href="https://twitter.com/username/status/1234567890?ref_src=twsrc%5Etfw">March 14, 2023</a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <!-- Link back to the homepage -->
+            <p><a href="index.html">Go back to Homepage</a></p>
+        </article>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by ranron - <a href="https://www.example.com" target="_blank">here</a>.</p>
+    </footer>
+</body>
 </html>
+
